@@ -6,9 +6,9 @@ from track import Track
 from playlist import Playlist
 from spotipy import SpotifyOAuth
 
-CLIENT_ID = 'a0c4070f670b48b3afc464c263ba3caa'
-CLIENT_SECRET = 'ffe4dd25053a4194a12fc5e3a6c40ac0'
-REDIRECT_URI = 'https://localhost:8888/callback'
+CLIENT_ID = '' #insert client id
+CLIENT_SECRET = '' #insert client secrete
+REDIRECT_URI = '' #insert redirect uri
 
 def avg(l):
     return sum(l)/len(l)
